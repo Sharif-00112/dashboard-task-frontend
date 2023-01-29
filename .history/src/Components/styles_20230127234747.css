@@ -1,0 +1,13 @@
+.background{
+    background-color: lightgray;
+}
+
+.task-part{
+    display: flex;
+    justify-content: space-around
+}
+
+.task{
+    background-color: antiquewhite;
+    margin: 2px;
+}

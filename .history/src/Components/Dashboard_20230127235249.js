@@ -1,0 +1,12 @@
+import React from 'react';
+import Incomplete from './Incomplete';
+
+const Dashboard = () => {
+    return (
+        <div className='dashboard'>
+            <Incomplete></Incomplete>
+        </div>
+    );
+};
+
+export default Dashboard;

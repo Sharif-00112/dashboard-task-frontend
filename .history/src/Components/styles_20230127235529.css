@@ -1,0 +1,19 @@
+.background{
+    background-color: lightgray;
+}
+
+.task-part{
+    display: flex;
+    justify-content: space-around
+}
+
+.task{
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+}
+
+.dashboard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

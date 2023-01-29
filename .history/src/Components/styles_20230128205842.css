@@ -1,0 +1,40 @@
+.background{
+    background-color: rgb(238, 241, 245);
+}
+
+.section-container{
+    width: 310px;
+}
+
+#scrolling-y{
+    overflow-y: scroll;
+    /* white-space: nowrap; */
+}
+
+#scrolling-x{
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+
+.task-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-title{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.task{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.dashboard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
