@@ -12,10 +12,10 @@ const Task = (props) => {
             </div>
             <div className="task-part">
                 <small>{taskSummary.substring(0,30)}</small>
-                <p className='background px-2 rounded'>{progress}</p>
+                <p className='background px-2 py-1 rounded'>{progress}</p>
             </div>
             <div className="task-part">
-                <p className='background px-1 rounded'>{modules}+</p>
+                <p className='background p-1 rounded'>{modules}+</p>
                 <p>{message}</p>
                 <p>{attachment}</p>
                 <p>{date}</p>

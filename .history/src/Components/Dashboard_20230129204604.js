@@ -2,9 +2,6 @@ import React from 'react';
 import Incomplete from './Incomplete';
 import ToDo from './ToDo';
 import Doing from './Doing'
-import UnderReview from './UnderReview'
-import Completed from './Completed'
-import Overdue from './Overdue'
 
 const Dashboard = () => {
     return (
